@@ -18,7 +18,7 @@ namespace Furniture
                 order = Console.ReadLine();
             }
 
-            string pattern = @"\>*(?<furniture>\w+)\<*(?<price>[0-9.]+|[0-9]+)!(?<quantity>\d+)";
+            string pattern = @">>(?<furniture>\w+)<<(?<price>[0-9.]+)!(?<quantity>\d+)";
             MatchCollection matchedOrders = Regex.Matches(string.Join(" ", orders), pattern);
             Console.WriteLine("Bought furniture:");
             foreach (Match orderID in matchedOrders)
