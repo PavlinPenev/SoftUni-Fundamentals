@@ -1,5 +1,5 @@
 # SoftUni Programming Fundamentals with C\# course
-Problem Solultions repository for the tasks given in the course.
+Problem Solutions repository for the tasks given in the course.
 <p></p>
 <img src="https://www.shekhali.com/wp-content/uploads/2021/11/C-Array.png">
 <p></p>
